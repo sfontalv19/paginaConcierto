@@ -1,0 +1,34 @@
+{
+  "name": "avif",
+  "version": "0.5.2",
+  "description": "Command line utility to convert images to AVIF",
+  "author": "Lovell Fuller <npm@lovell.info>",
+  "license": "Apache-2.0",
+  "bin": {
+    "avif": "./bin/avif.js"
+  },
+  "scripts": {
+    "test": "prettier --check '**/*.js'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/lovell/avif-cli"
+  },
+  "engines": {
+    "node": "^18.17.0 || ^20.3.0 || >=21.0.0"
+  },
+  "funding": {
+    "url": "https://opencollective.com/libvips"
+  },
+  "keywords": [
+    "avif"
+  ],
+  "dependencies": {
+    "glob": "^10.3.10",
+    "sharp": "^0.33.2",
+    "yargs": "^17.7.2"
+  },
+  "devDependencies": {
+    "prettier": "^3.2.4"
+  }
+}
